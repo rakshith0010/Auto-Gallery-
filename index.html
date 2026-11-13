@@ -374,13 +374,18 @@
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-    <!-- Footer -->
+  <!-- Footer -->
     <footer class="bg-black py-8 px-4 text-center border-t border-slate-800 text-xs text-slate-500">
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 Auto Gallery, Veerapandi, Coimbatore. All Rights Reserved.</p>
+            <p>&copy; <span id="currentYear"></span> Auto Gallery, Veerapandi, Coimbatore. All Rights Reserved.</p>
             <p>8 Years in Business • Rated 4.6 Stars</p>
         </div>
     </footer>
+
+    <!-- Script to Auto-Update Year -->
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>

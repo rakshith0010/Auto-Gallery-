@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Gallery | Premium Car Dealers & Repair Services in Coimbatore</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        auto: {
+                            dark: '#111827', // Deep slate for an automotive feel
+                            slate: '#1f2937',
+                            accent: '#f97316', // Racing orange accent
+                            highlight: '#3b82f6' // Trust blue
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-auto-dark text-slate-100 font-sans antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-black border-b border-slate-800 text-xs py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-auto-accent mr-1"></i> Veerapandi, Periyanaickenpalayam, Coimbatore[cite: 22]</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-clock text-auto-accent mr-1"></i> Open 24 Hrs[cite: 22]</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+918508063848" class="hover:text-auto-accent transition"><i class="fa-solid fa-phone text-auto-accent mr-1"></i> 85 0806 3848[cite: 25]</a>
+                <span class="bg-auto-highlight/10 text-auto-highlight px-2 py-0.5 rounded border border-auto-highlight/20 font-semibold"><i class="fa-solid fa-star text-xs mr-1"></i> 4.6 Rating (1,890+ Reviews)[cite: 22]</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-auto-dark/95 backdrop-blur border-b border-slate-800 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-auto-accent text-slate-950 font-black px-3 py-1.5 rounded text-xl tracking-wider uppercase italic">AG</div>
+                <div>
+                    <span class="font-bold text-lg tracking-wide block leading-tight uppercase">Auto Gallery</span>
+                    <span class="text-xs text-slate-400">Car Dealers & Premium Services[cite: 22]</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#home" class="hover:text-auto-accent transition">Home</a>
+                <a href="#about" class="hover:text-auto-accent transition">About Us</a>
+                <a href="#services" class="hover:text-auto-accent transition">Services</a>
+                <a href="#gallery" class="hover:text-auto-accent transition">Gallery</a>
+                <a href="#contact" class="hover:text-auto-accent transition">Contact Us</a>
+            </nav>
+            <div>
+                <a href="https://wa.me/918508063848?text=Hello,%20I%20would%20like%20to%20book%20a%20service." target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition shadow flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Book Service[cite: 22]
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative bg-gradient-to-r from-slate-950 via-auto-dark to-slate-900 py-24 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-auto-accent/10 text-auto-accent text-xs font-semibold px-3 py-1 rounded-full border border-auto-accent/20">Your Ride, Our Priority[cite: 27]</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-6 leading-tight">
+                    Premium Auto Care & <span class="text-auto-accent">Tyre Services</span>
+                </h1>
+                <p class="text-slate-300 text-base mb-8 leading-relaxed">
+                    Experience top-tier car maintenance, authorized tyre sales (Apollo, Continental, Bridgestone), and smart wash services. Open 24/7 to keep you moving safely on the road[cite: 22, 25, 26, 28, 29].
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="bg-auto-accent hover:bg-orange-600 text-slate-950 font-bold px-6 py-3 rounded-lg transition shadow-lg">
+                        Explore Services
+                    </a>
+                    <a href="https://wa.me/918508063848?text=Hello,%20I%20need%20a%20tyre%20quote." target="_blank" class="border border-slate-700 hover:border-slate-500 bg-slate-800/50 px-6 py-3 rounded-lg transition font-medium flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-green-400"></i> Get a Quote
+                    </a>
+                </div>
+            </div>
+            <div class="bg-slate-800 p-2 rounded-xl border border-slate-700 shadow-2xl overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=800&q=80" alt="Auto Gallery Workshop" class="w-full h-[360px] object-cover rounded-lg filter contrast-110">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-slate-950">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-white border-l-4 border-auto-accent pl-4">About Auto Gallery</h2>
+                <p class="text-slate-300 mb-4 leading-relaxed">
+                    Situated on Mettupalayam Main Road, Veerapandi Pirivu, Coimbatore, **Auto Gallery** is a highly rated, comprehensive automotive service center[cite: 22, 27]. We have been a trusted name in the industry for over **8 years**[cite: 22].
+                </p>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    With an exceptional **4.6 rating from over 1,890 reviews**, our dedicated team operates 24 hours a day to provide expert advice, accurate alignment, and professional service[cite: 22, 27]. We partner with leading brands to ensure your safety is always our priority[cite: 27].
+                </p>
+                <div class="grid grid-cols-2 gap-6 pt-4 border-t border-slate-800">
+                    <div>
+                        <span class="block text-3xl font-black text-auto-accent">8 Years</span>
+                        <span class="text-xs text-slate-400">In Business[cite: 22]</span>
+                    </div>
+                    <div>
+                        <span class="block text-3xl font-black text-auto-accent">4.6 ★</span>
+                        <span class="text-xs text-slate-400">1,890+ Ratings[cite: 22]</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl shadow-xl">
+                <h3 class="text-xl font-bold mb-4 text-white"><i class="fa-solid fa-car text-auto-accent mr-2"></i> Workshop Quick Info</h3>
+                <div class="space-y-4 text-sm">
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Category:</span>
+                        <span class="font-semibold">Car Dealers & Repair[cite: 22]</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Location:</span>
+                        <span class="font-semibold text-right">Veerapandi, Periyanaickenpalayam[cite: 22]</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Operating Hours:</span>
+                        <span class="font-semibold text-auto-accent">Open 24 Hrs[cite: 22]</span>
+                    </div>
+                    <div class="flex justify-between pb-2">
+                        <span class="text-slate-400">Contact:</span>
+                        <span class="font-semibold text-auto-highlight">85 0806 3848[cite: 25]</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 bg-auto-dark border-t border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-auto-accent text-xs font-bold uppercase tracking-wider">What We Offer</span>
+                <h2 class="text-3xl font-bold mt-2 mb-4">Our Automotive Services</h2>
+                <p class="text-slate-400">Comprehensive care for your vehicle using top-quality brands and equipment.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-auto-accent transition group">
+                    <div class="w-12 h-12 bg-auto-accent/10 rounded-lg flex items-center justify-center text-auto-accent mb-4 group-hover:bg-auto-accent group-hover:text-slate-950 transition">
+                        <i class="fa-solid fa-compact-disc text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Premium Tyres & Wheels</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Authorized dealers for Apollo, Continental, and Bridgestone tyres. Wide selection of alloy wheels[cite: 23, 25, 26, 29].</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-auto-accent transition group">
+                    <div class="w-12 h-12 bg-auto-accent/10 rounded-lg flex items-center justify-center text-auto-accent mb-4 group-hover:bg-auto-accent group-hover:text-slate-950 transition">
+                        <i class="fa-solid fa-wrench text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Alignment & Balancing</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Accurate 3D wheel alignment, computerized balancing, and tubeless tyre fitting services[cite: 27, 29].</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-auto-accent transition group">
+                    <div class="w-12 h-12 bg-auto-accent/10 rounded-lg flex items-center justify-center text-auto-accent mb-4 group-hover:bg-auto-accent group-hover:text-slate-950 transition">
+                        <i class="fa-solid fa-shower text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Smart Car Wash</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Automated Smart Wash system for a thorough, scratch-free exterior clean and foam wash[cite: 24, 28, 29].</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-auto-accent transition group">
+                    <div class="w-12 h-12 bg-auto-accent/10 rounded-lg flex items-center justify-center text-auto-accent mb-4 group-hover:bg-auto-accent group-hover:text-slate-950 transition">
+                        <i class="fa-solid fa-oil-can text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Oil & Spares</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Genuine engine oils (Castrol, Motul), batteries, and essential car accessories[cite: 30].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multimedia Gallery Section -->
+    <section id="gallery" class="py-20 px-4 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-auto-accent text-xs font-bold uppercase tracking-wider">Visual Showcase</span>
+                <h2 class="text-3xl font-bold mt-2 mb-4">Our Workshop Gallery</h2>
+                <p class="text-slate-400">See our facilities, happy customers, and state-of-the-art equipment.</p>
+            </div>
+
+            <!-- Video Section -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold mb-6 border-l-4 border-auto-highlight pl-3">Featured Videos</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Video Placeholder 1 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl aspect-video relative group flex items-center justify-center">
+                        <i class="fa-solid fa-play text-5xl text-slate-600 group-hover:text-auto-accent transition duration-300 z-10"></i>
+                        <div class="absolute inset-0 bg-slate-800/50 group-hover:bg-slate-800/30 transition duration-300"></div>
+                         <!-- Add your <video> or <iframe> tag here -->
+                         <p class="absolute bottom-4 left-4 text-sm font-medium z-10">Smart Wash Demonstration</p>
+                    </div>
+                    <!-- Video Placeholder 2 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl aspect-video relative group flex items-center justify-center">
+                        <i class="fa-solid fa-play text-5xl text-slate-600 group-hover:text-auto-accent transition duration-300 z-10"></i>
+                        <div class="absolute inset-0 bg-slate-800/50 group-hover:bg-slate-800/30 transition duration-300"></div>
+                        <!-- Add your <video> or <iframe> tag here -->
+                        <p class="absolute bottom-4 left-4 text-sm font-medium z-10">Wheel Alignment Process</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Grid -->
+            <div>
+                <h3 class="text-xl font-semibold mb-6 border-l-4 border-auto-highlight pl-3">Image Gallery</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <!-- Gallery Item 1 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl group">
+                        <div class="h-64 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1599256614138-04b341fdb41b?auto=format&fit=crop&w=600&q=80" alt="Alloy Wheels Collection" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 text-center">
+                            <h3 class="font-bold text-white text-sm">Extensive Alloy Wheels Display</h3>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl group">
+                        <div class="h-64 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1600661653561-629509216228?auto=format&fit=crop&w=600&q=80" alt="Customer Delivery" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 text-center">
+                            <h3 class="font-bold text-white text-sm">Happy Customer Deliveries</h3>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 -->
+                    <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl group">
+                        <div class="h-64 overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1520340356584-f9917d1e5103?auto=format&fit=crop&w=600&q=80" alt="Car Wash Station" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        </div>
+                        <div class="p-4 text-center">
+                            <h3 class="font-bold text-white text-sm">Automated Smart Wash Station</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="py-20 px-4 bg-auto-dark border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-4">Visit Auto Gallery Today</h2>
+                <p class="text-slate-400 mb-8 text-sm">Drive in anytime for expert auto care, tyre replacements, or a quick wash. We are open 24/7 to serve you[cite: 22].</p>
+                
+                <div class="space-y-6 text-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-auto-accent/10 p-3 rounded-lg text-auto-accent"><i class="fa-solid fa-location-dot text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Workshop Address:</strong>
+                            <span class="text-slate-300 leading-relaxed">Mettupalayam Main Road, Veerapandi Pirivu, Coimbatore, Tamil Nadu 641047[cite: 27]</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="bg-auto-accent/10 p-3 rounded-lg text-auto-accent"><i class="fa-solid fa-phone text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Phone Number:</strong>
+                            <a href="tel:8508063848" class="text-auto-accent hover:underline font-semibold">85 0806 3848[cite: 25]</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="bg-auto-accent/10 p-3 rounded-lg text-auto-accent"><i class="fa-solid fa-clock text-lg"></i></div>
+                        <div>
+                            <strong class="block text-white mb-1">Working Hours:</strong>
+                            <span class="text-slate-300">Open 24 Hours, 7 Days a Week[cite: 22]</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-wrap gap-4">
+                    <a href="https://wa.me/918508063848?text=Hello,%20I%20want%20to%20book%20a%20service." target="_blank" class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-bold transition shadow-lg">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> Chat on WhatsApp
+                    </a>
+                    <a href="tel:8508063848" class="inline-flex items-center gap-3 bg-auto-accent hover:bg-orange-600 text-slate-950 px-6 py-3 rounded-lg font-bold transition shadow-lg">
+                        <i class="fa-solid fa-phone text-xl"></i> Call Now[cite: 25]
+                    </a>
+                </div>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <div class="bg-slate-900 p-2 rounded-2xl border border-slate-800 shadow-xl overflow-hidden h-[400px]">
+                <iframe 
+                    class="w-full h-full rounded-xl filter contrast-125"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.6!2d76.95!3d11.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmVlcmFwYW5kaSwgUGVyaXlhbmFpY2tlbnBhbGF5YW0sIENvaW1iYXRvcmUsIFRhbWlsIE5hZHU!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/918508063848?text=Hello,%20I%20visited%20your%20website." target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl transition hover:scale-110" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 px-4 text-center border-t border-slate-800 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>&copy; 2026 Auto Gallery, Veerapandi, Coimbatore. All Rights Reserved.</p>
+            <p>8 Years in Business • Rated 4.6 Stars[cite: 22]</p>
+        </div>
+    </footer>
+
+</body>
+</html>
